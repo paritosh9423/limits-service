@@ -25,7 +25,7 @@ public class LimitsConfigurationController {
 	
 	public LimitConfigurtion fallbackRetrieveConfiguration() {
 		//return default config in case of any exceptions
-		return new LimitConfigurtion(9,999);
+		return new LimitConfigurtion(99999,999);
 	
 	
 	}
